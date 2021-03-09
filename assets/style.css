@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px ;
+}
+.main-header{
+    background-color:#333;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-item > a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+}
+.head-er:nth-of-type(1){
+    display: flex;
+    font: 22px solid white;
+    margin: 10px;
+}
+.head-er:nth-of-type(2){
+    align-self: center;
+}
+.head-er >h2{
+    position: relative;
+    right: 20px;
+    margin: 0px;
+    font-size: 3rem;
+    color:white;
+}
+.imgone{
+    height:20px
+}
+.header-item >button{
+   padding: 0.5rem 1rem;
+   font-size: 20px;
+   color:white;
+   border-radius: 0.5rem;
+   background-color: #333;
+}
+.header-item:nth-of-type(1){
+
+    flex: 4;
+    justify-content: space-between;
+}
+.header-item:nth-of-type(2){
+    flex: 1;
+}
+/* header section ends */
+.content{
+    padding: 1rem;
+}
+ .content> a{
+ text-decoration: none;
+ color: blue;
+ font-weight: bold;
+}
+.content> h1{
+    margin: 0.5rem 0px;
+    font-size: 30px;
+    text-decoration: none;
+   }
+   .content > .icon{
+       font-size: 24px;
+       font-weight: bold    ;
+      color: #333333;
+   }
+   .img11:first-of-type {
+   height: 400px;
+   }
+   .img12{
+       height: 300px;
+   }
+.main-class{
+    margin: 2rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.class-item{
+    display: flex;
+    flex: 60% 40%;
+    margin-bottom: 50px;
+}
+.class-item3{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.class-item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
