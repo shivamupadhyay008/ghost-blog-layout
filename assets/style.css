@@ -71,7 +71,8 @@ body{
    height: 400px;
    }
    .img12{
-       height: 300px;
+       width: 100%;
+       height:auto;
    }
 .main-class{
     margin: 2rem;
